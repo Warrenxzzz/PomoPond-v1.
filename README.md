@@ -13,7 +13,7 @@ How to Assemble:
 
 3.Run the Scripts: Open your favorite code editor and run the Pomodoro Timer script to initiate your work sessions. Then, fire up the Pond Ambiance script to immerse yourself in a serene atmosphere. 🎶🌅
 
-4.Enjoy the Experience: Sit back, relax, and let the magic of the PomoPond Kit whisk you away to a world of productivity and tranquility. 🚀💆‍♂️
+4.Enjoy the Experience: Sit back, relax, and let the magic of the PomoPond Kit whisk you away to a world of productivity and tranquility(YOU MIGHT NEED TO HOLD CTRL AND + THEN ZOOM IN TO 250% FOR BEST AESTHETICS AND QUALITY). 🚀💆‍♂️
 
 Cool Outcome:
 With the PomoPond Kit, you'll not only boost your productivity but also enhance your overall well-being. 🌟 Say goodbye to distractions and hello to focused work sessions amidst the calming ambiance of a virtual pond. 🌺🌊
