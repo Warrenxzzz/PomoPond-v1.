@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Pond</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>🍅Pomodoro Pond🪷</h1>
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button onclick="addTask()">Add Task📜</button>
+    <button onclick="resetTasks()">Reset Tasks📝</button>
+    <ul id="taskList"></ul>
+    <button onclick="startTimer()">Start Timer⏱️</button>
+    <button onclick="resetTimer()">Reset Timer⏳</button>
+    <p id="timer"></p>
+  </div>
+
+
+  <div class="about" id="aboutPage">
+    <h2>About This Pomodoro Tool</h2>
+    <p>
+
+      Introducing the sleek Pomodoro Timer designed for focused studying! 🍅✨
+
+      The Pomodoro Method: Work for 25 minutes, then take a short break. My twist? Enjoy energizing 25-minute breaks between study sessions for extreme focus! 🚀📚
+
+      Study smarter with our clutter-free timer and recharge your brain for maximum productivity. Get ready to tackle tasks with renewed energy and style! 💻🌟</p>
+    <button onclick="closeAbout()">Close❌</button>
+  </div>
+  <!-- About Page Button -->
+  <button onclick="openAbout()">👉About👈</button>
+
+  <script src="script.js"></script>
+  <img src="frog.png" alt="Scaled Image" class="scaled-image">
+
+
+
+  
+
+</body>
+
+
+<style>
+  body {
+    background-color: skyblue;
+    background-image: url('back.jpg');
+    justified-content: center;
+    text-align: center;
+  }
+
+  .about {
+      display: none;
+      background-color: darkseagreen;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-align: center;
+      font-family: cursive;
+  }
+
+  .about h2 {
+      margin-top: 0;
+  }
+
+  ul {
+    font-size: 24px;
+    font-family: cursive;
+    color: limegreen;
+  }
+
+  .scaled-image {
+    width: 100px;
+    height: autopx;
+  }
+
+  input {
+    background-color: greenyellow;
+    border-radius: 15px 15px 30px;
+    font-family: cursive;
+    text-color: black;
+  }
+
+  .container {
+    background-color: darkolivegreen;
+    background-image: url(containback.jpg).jpg;
+    border-radius: 15px 50px 30px;
+    text-align: center;
+  }
+
+  h1 {
+    color: darkgreen;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  p {
+    font-family: cursive;
+    font-size: 20px;
+  }
+
+  button {
+    background-color: darkseagreen;
+    border-radius: 15px 50px 30px;
+    color: darkgreen;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+  </html>
